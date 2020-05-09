@@ -22,14 +22,6 @@ class My_template {
 		$this->ci->load->view('layout_admin',$this->template_data, $return);
 	}
 	
-	public function cekLogin(){
-		$this->ci->session_userdata('username');
-		if ($x==''){
-			redirect(base_url().'login');
-		}
-		
-	}
-
 	public function MenuAdmin(){
 		$nav = '';
 		$array_menu = array(""=>"Dashboard",
