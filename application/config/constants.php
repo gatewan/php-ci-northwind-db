@@ -35,7 +35,7 @@ define('FOPEN_WRITE_CREATE',					'ab');
 define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
-define('AUTHOR','Wahyu Widodo');
-define('APPNAME','Simple CURD - CI & Ajax');
+define('AUTHOR','Wawan_12131294');
+define('APPNAME','Tugas 2 CURD - CI & Ajax');
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

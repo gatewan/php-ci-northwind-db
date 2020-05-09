@@ -6,7 +6,7 @@
 -->
 <html lang="en">
 	<head>
-		<title>Strata by HTML5 UP</title>
+		<title><?php echo APPNAME;?></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -33,17 +33,24 @@
 
 		<!-- Main -->
 			<div id="main">
+		
 				<!-- One -->
 					<section id="one">
+					<div id="page-wrapper">			
+						<?php echo $contents;?>
+					</div>
+					<!--
 						<header class="major">
-							<h2><?php echo APPNAME;?></h2>
+							<h2></h2>
 						</header>
 						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+						     
 						<ul class="actions">
-						<!-- <li><a href="#" class="button">Learn More</a></li> -->
+					 <li><a href="#" class="button">Learn More</a></li> 
 						</ul>
+						-->
 					</section>
-					
+		
 				<!-- Two -->
 				<!--	<section id="two">
 						<h2>Recent Work</h2>
@@ -460,11 +467,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 			
 			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/jquery.poptrox.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/skel.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="<?php echo base_url();?>assets/js/main.js"></script>
+
 	</body>
 </html>

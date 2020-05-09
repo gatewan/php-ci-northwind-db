@@ -6,8 +6,9 @@ class Home extends CI_Controller {
 
     public function index()
 	{   
-		$data['title'] = 'Dashboard ';
-        $this->my_template->loadAdmin('home/home',$data);		
+		$data['title'] = 'Dashboard';
+        $this->load->view('home/home');
+		
 	}
         
     
