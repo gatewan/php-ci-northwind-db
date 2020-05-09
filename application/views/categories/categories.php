@@ -4,9 +4,9 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
-                <?php echo $title;?>
+                <?php echo $title;?> <small>Statistics Overview</small>
             </h1>
-
+                <ol class="breadcrumb">
                     <li class="active">
                         <i class="fa fa-dashboard"></i> <?php echo $title;?>
                     </li>
@@ -47,8 +47,8 @@
 </div>
 
 
-
 <script type="text/javascript">
+
 var save_method; //for save method string
 var table;
 

@@ -16,10 +16,10 @@ class My_template {
     {
         $this->template_data[$name] = $value;
     }
-		
+	
 	public function loadAdmin($view_name = '' , $view_data = array(), $return = FALSE){
 		$this->set('contents', $this->ci->load->view($view_name, $view_data, TRUE));		
-		$this->ci->load->view('layout_12131294',$this->template_data, $return);
+		$this->ci->load->view('layout_admin',$this->template_data, $return);
 	}
 	
 	public function MenuAdmin(){
@@ -38,7 +38,7 @@ class My_template {
 			$css = ($is_Act==$row)? 'class="active"' : '';
 			$nav.='<li '.$css.' >'.anchor(base_url().$row,'<i class="fa fa-fw fa-'.$icons[$i].'"></i> '.$key).'</li>';
 			$i++;
-		}
+		} 
 		return $nav;		
 	}
 	
