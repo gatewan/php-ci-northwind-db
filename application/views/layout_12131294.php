@@ -6,7 +6,7 @@
 -->
 <html lang="en">
 	<head>
-		<title><?php echo APPNAME;?></title>
+		<title>Strata by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,10 +21,11 @@
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>I am <?php echo AUTHOR;?></strong></h1><br />
+					<?php echo $this->my_template->MenuAdmin();?>
 					<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav side-nav">
-							<?php echo $this->my_template->MenuAdmin();?>
+						<?php echo $this->my_template->MenuAdmin();?>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -33,24 +34,17 @@
 
 		<!-- Main -->
 			<div id="main">
-		
 				<!-- One -->
 					<section id="one">
-					<div id="page-wrapper">			
-						<?php echo $contents;?>
-					</div>
-					<!--
 						<header class="major">
-							<h2></h2>
+							<h2><?php echo APPNAME;?></h2>
 						</header>
 						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-						     
 						<ul class="actions">
-					 <li><a href="#" class="button">Learn More</a></li> 
+						<!-- <li><a href="#" class="button">Learn More</a></li> -->
 						</ul>
-						-->
 					</section>
-		
+					
 				<!-- Two -->
 				<!--	<section id="two">
 						<h2>Recent Work</h2>
@@ -473,6 +467,5 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="<?php echo base_url();?>assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="<?php echo base_url();?>assets/js/main.js"></script>
-
 	</body>
 </html>

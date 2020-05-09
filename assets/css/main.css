@@ -2104,7 +2104,7 @@
 		}
 
 	ul {
-		list-style:none;
+		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2488,7 +2488,7 @@
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 4em 4em;
+		padding: 8em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2572,7 +2572,7 @@
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 4em 3em 3em 3em;
+		padding: 4em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 

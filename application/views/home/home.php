@@ -23,8 +23,8 @@
 					<h1><strong>I am <?php echo AUTHOR;?></strong></h1><br />
 					<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<?php echo $this->my_template->MenuAdmin();?>
 						<ul class="nav navbar-nav side-nav">
-							<?php echo $this->my_template->MenuAdmin();?>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -460,11 +460,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 			
 			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/jquery.poptrox.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/skel.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="<?php echo base_url();?>assets/js/main.js"></script>
 	</body>
 </html>
