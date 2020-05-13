@@ -4,7 +4,7 @@ class Employees extends CI_Controller{
  public function __construct()
  {
   parent::__construct();
-  $this->load->model('Employees_model','EM'); //cara 1.
+  $this->load->model('Employee_model','EM'); //cara 1.
   
   /*
   Ada 2 cara untuk memanggil model:

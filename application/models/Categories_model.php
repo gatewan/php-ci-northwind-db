@@ -1,9 +1,4 @@
 <?php
-/*
-Menampilkan Tabel Categories
-Oleh Wawan Beneran
-gatewan.com
-*/
 class Categories_model extends CI_Model{
  
  public function data_categories(){

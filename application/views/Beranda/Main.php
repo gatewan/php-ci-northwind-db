@@ -1,8 +1,5 @@
 					</section>
-<!--
-Ada beberapa elemen di sini yang kami hapus, dimaksudkan agar tidak mengganggu tampilan konten
-tabel-tabel database northwind,
--->
+
 			</div>
 
 		<!-- Footer -->
@@ -15,7 +12,7 @@ tabel-tabel database northwind,
 						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Wawan Beneran 12131294</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>

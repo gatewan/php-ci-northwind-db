@@ -1,6 +1,5 @@
 <?php
 $this->load->view('Beranda/Header');
-
 echo heading($title,3);
 $template = array(
         'table_open'            => '<table border="1" cellpadding="4" cellspacing="0">',
@@ -21,8 +20,5 @@ $this->table->set_heading(
    );
   endforeach;
   echo $this->table->generate();
-  
 $this->load->view('Beranda/Main');
 ?>
-
-

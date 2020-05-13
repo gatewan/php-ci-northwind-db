@@ -1,4 +1,4 @@
-					<header class="major">
+						<header class="major">
 							<h2>Ipsum lorem dolor aliquam ante commodo<br />
 							magna sed accumsan arcu neque.</h2>
 						</header>
@@ -418,7 +418,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Wawan 12131294</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>

@@ -1,15 +1,10 @@
 <?php
-/*
-Menampilkan Tabel Categories
-Oleh Wawan Beneran
-gatewan.com
-*/
 class Categories extends CI_Controller{
  
  public function __construct()
  {
   parent::__construct();
-  $this->load->model('Categories_model','CTM'); //cara 1.
+  $this->load->model('Categories_model','EM'); //cara 1.
   
   /*
   Ada 2 cara untuk memanggil model:
@@ -36,7 +31,7 @@ class Categories extends CI_Controller{
   endforeach;
   */
   $data["title"] = "<h1>Data Categories</h1>";
-  $data["array_emp"] = $this->CTM->data_categories();
+  $data["array_emp"] = $this->EM->data_categories();
   $this->load->view('View_categories',$data);
  }
  
